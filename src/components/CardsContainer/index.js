@@ -17,11 +17,11 @@ const CardsContainer = ({ days, unit, handleDaySelection, selectedIndex }) => {
                 pagination={false}
                 breakPoints={breakPoints}
             >
-                {days.map((day, index) => (
+                {days?.map((day, index) => (
                     <DayCard
                         day={day}
                         index={index}
-                        key={day.dt}
+                        key={day?.dt}
                         unit={unit}
                         handleDaySelection={handleDaySelection}
                         selectedIndex={selectedIndex}
