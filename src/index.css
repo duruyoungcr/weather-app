@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.rec.rec-arrow:hover, .rec.rec-arrow:focus {
+  background-color: #4899EA !important;
+}
+
+@media screen and (max-width: 450px) {
+  .rec.rec-arrow {
+    position: absolute;
+  }
+  .rec.rec-arrow:focus {
+    position: absolute;
+  }
+  .rec-arrow.rec-arrow-right {
+    right: 0.5rem;
+  }
+  .rec-arrow.rec-arrow-left {
+    left: 0.5rem;
+  }
+}

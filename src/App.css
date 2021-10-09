@@ -1,0 +1,42 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    min-width: 800px;
+    padding: 2rem 0;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #1976D2;
+    font-family: 'Comfortaa', cursive;
+}
+
+.actions {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.loader {
+    min-width: 100vw;
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.refresh {
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    .container {
+        min-width: 500px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .container {
+        min-width: 300px;
+        padding: 2rem 0.5rem;
+    }
+}
